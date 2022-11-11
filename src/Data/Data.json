@@ -1,0 +1,202 @@
+[
+    {
+        "IATA": "AAL",
+        "AIRPORT": "AALBORG",
+        "COUNTRY": "DENMARK"
+    },
+    {
+        "IATA": "ACE",
+        "AIRPORT": "LANZAROTE",
+        "COUNTRY": "SPAIN"  
+    },
+    {
+        "IATA": "ARN",
+        "AIRPORT": "ARLANDA",
+        "COUNTRY": "AWEDEN"  
+    },
+    {
+        "IATA": "AUA",
+        "AIRPORT": "ARUBA",
+        "COUNTRY": "ARUBA"  
+    },
+    {
+        "IATA": "AYT",
+        "AIRPORT": "ANTALYA",
+        "COUNTRY": "TURKEY"  
+    },
+    {
+        "IATA": "BGO",
+        "AIRPORT": "BERGEN",
+        "COUNTRY": "NORWAY"  
+    },
+    {
+        "IATA": "BJL",
+        "AIRPORT": "BANJUL",
+        "COUNTRY": "GAMBIA"  
+    },
+    {
+        "IATA": "BLL",
+        "AIRPORT": "BILLUND",
+        "COUNTRY": "DENMARK"  
+    },
+    {
+        "IATA": "CPH",
+        "AIRPORT": "COPENHAGEN",
+        "COUNTRY": "DENMARK"  
+    },
+    {
+        "IATA": "CHQ",
+        "AIRPORT": "CHANIA",
+        "COUNTRY": "GREECE"  
+    },
+    {
+        "IATA": "FNC",
+        "AIRPORT": "FUNCHAL",
+        "COUNTRY": "PORTUGAL"  
+    },
+    {
+        "IATA": "FUE",
+        "AIRPORT": "FUERTEVENTURA",
+        "COUNTRY": "SPAIN"  
+    },
+    {
+        "IATA": "GOT",
+        "AIRPORT": "GOTHENBURG",
+        "COUNTRY": "SWEDEN"  
+    },
+    {
+        "IATA": "GZP",
+        "AIRPORT": "GAZIPASA",
+        "COUNTRY": "TURKEY"  
+    },
+    {
+        "IATA": "HEL",
+        "AIRPORT": "HELSINKI",
+        "COUNTRY": "FINLAND"  
+    },
+    {
+        "IATA": "HER",
+        "AIRPORT": "HERAKLION",
+        "COUNTRY": "GREECE"  
+    },
+    {
+        "IATA": "HKT",
+        "AIRPORT": "PHUKET",
+        "COUNTRY": "THAILAND"  
+    },
+    {
+        "IATA": "HRG",
+        "AIRPORT": "HURGHADA",
+        "COUNTRY": "EGYPT"  
+    },
+    {
+        "IATA": "JSI",
+        "AIRPORT": "SKIATOS",
+        "COUNTRY": "GREECE"  
+    },
+    {
+        "IATA": "KGS",
+        "AIRPORT": "KOS",
+        "COUNTRY": "GREECE"  
+    },
+    {
+        "IATA": "KUO",
+        "AIRPORT": "KUOPIO",
+        "COUNTRY": "FINLAND"  
+    },
+    {
+        "IATA": "LCA",
+        "AIRPORT": "LARNACA",
+        "COUNTRY": "CYPRUS"  
+    },
+    {
+        "IATA": "LPA",
+        "AIRPORT": "LAS PALMAS",
+        "COUNTRY": "SPAIN"  
+    },
+    {
+        "IATA": "MJT",
+        "AIRPORT": "MYTILENE",
+        "COUNTRY": "GREECE"  
+    },
+    {
+        "IATA": "MMX",
+        "AIRPORT": "MALMÖ",
+        "COUNTRY": "SWEDEN"  
+    },
+    {
+        "IATA": "MOL",
+        "AIRPORT": "MOLDE",
+        "COUNTRY": "NORWAY"  
+    },
+    {
+        "IATA": "OSL",
+        "AIRPORT": "OSLO",
+        "COUNTRY": "NORWAY"  
+    },
+    {
+        "IATA": "PMI",
+        "AIRPORT": "PALMA",
+        "COUNTRY": "SPAIN"  
+    },
+    {
+        "IATA": "PUJ",
+        "AIRPORT": "PUNTA CANA",
+        "COUNTRY": "DOMINICAN REP"  
+    },
+    {
+        "IATA": "RHO",
+        "AIRPORT": "RHODES",
+        "COUNTRY": "GREECE"  
+    },
+    {
+        "IATA": "SID",
+        "AIRPORT": "SAL/KAP VERDE",
+        "COUNTRY": "KAP VERDE"  
+    },
+    {
+        "IATA": "SPU",
+        "AIRPORT": "SPLIT",
+        "COUNTRY": "CROATIA"  
+    },
+    {
+        "IATA": "SVG",
+        "AIRPORT": "STAVANGER",
+        "COUNTRY": "NORWAY"  
+    },
+    {
+        "IATA": "TFS",
+        "AIRPORT": "TENERIFE",
+        "COUNTRY": "SPAIN"  
+    },
+    {
+        "IATA": "TKU",
+        "AIRPORT": "TURKU",
+        "COUNTRY": "FINLAND"  
+    },
+    {
+        "IATA": "TOS",
+        "AIRPORT": "TROMSØ",
+        "COUNTRY": "NORWAY"  
+    },
+    {
+        "IATA": "TRD",
+        "AIRPORT": "TRONDHEIM",
+        "COUNTRY": "NORWAY"  
+    },
+    {
+        "IATA": "TRF",
+        "AIRPORT": "SANDEFJORD",
+        "COUNTRY": "NORWAY"  
+    },
+    {
+        "IATA": "VAA",
+        "AIRPORT": "VAASA",
+        "COUNTRY": "FINLAND"  
+    },
+    {
+        "IATA": "VAR",
+        "AIRPORT": "VARNA",
+        "COUNTRY": "BULGARIA"  
+    }
+]
