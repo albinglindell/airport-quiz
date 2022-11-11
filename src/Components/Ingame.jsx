@@ -1,17 +1,15 @@
 import React from 'react'
 import { useState } from 'react'
 import Data from "../Data/Data.json"
-import {Link, useNavigate} from "react-router-dom"
+import {Link} from "react-router-dom"
 
 
-function Ingame({ setStarting}) {
+function Ingame() {
     const [questionNum, setQuestionNum]=useState(37)
     const [correct, setCorrect] = useState([])
     const [wrong, setWrong] = useState([])
     const [endGame, setEndGame] = useState(false)
     const [showBtn, setShowBtn] = useState(false)
-    let [stats]= useState({correct:correct,wrong:wrong})
-    const navigate = useNavigate()
  
     const [message, setMessage] = useState('');
 

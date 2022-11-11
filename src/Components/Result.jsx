@@ -1,7 +1,7 @@
 import React from 'react'
 import { useLocation } from "react-router-dom";
 
-function Result(props) {
+function Result() {
     let location = useLocation()
     let correct = location.state.correct
     let wrong = location.state.wrong
