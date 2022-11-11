@@ -5,7 +5,7 @@ import {Link} from "react-router-dom"
 
 
 function Ingame() {
-    const [questionNum, setQuestionNum]=useState(37)
+    const [questionNum, setQuestionNum]=useState(0)
     const [correct, setCorrect] = useState([])
     const [wrong, setWrong] = useState([])
     const [endGame, setEndGame] = useState(false)
