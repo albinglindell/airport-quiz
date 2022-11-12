@@ -54,7 +54,6 @@ function Ingame() {
     <div className="ingameContainer">
       <div className="country">
         <h2>Country: {Data[questionNum].COUNTRY}</h2>
-      <h3></h3>
       </div>
 
       <div className="airport">
