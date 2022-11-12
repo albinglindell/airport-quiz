@@ -8,6 +8,7 @@ function Ingame() {
     const [questionNum, setQuestionNum]=useState(0)
     const [correct, setCorrect] = useState([])
     const [wrong, setWrong] = useState([])
+    const [correction, setCorrection] = useState(false)
     const [endGame, setEndGame] = useState(false)
     const [showBtn, setShowBtn] = useState(false)
     const [correctAnswer, setCorrectAnswer]=useState("")
@@ -21,8 +22,10 @@ function Ingame() {
     const correctAnswerBtn = ()=>{
       if(Data[questionNum].IATA === message){
         setCorrectAnswer("correct")
+        setCorrection(false)
       }else{
         setCorrectAnswer("wrong")
+        setCorrection(true)
       }
     }
     let nextBtn = ()=>{
@@ -46,6 +49,7 @@ function Ingame() {
           console.log({correct,wrong})
         }
         setCorrectAnswer("")
+        setCorrection(false)
         setMessage("")
     }
   return (
@@ -62,6 +66,10 @@ function Ingame() {
 
       <div className="iata">
         <h2>Iata: <span className={correctAnswer}>{message}</span></h2>
+      </div>
+
+      <div className="correctIata">
+        {correction && <h2>Correct answer: <span className='correct'>{Data[questionNum].IATA}</span></h2>}
       </div>
 
       <div className="inputContainer">

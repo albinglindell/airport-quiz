@@ -40,7 +40,7 @@ border: 1px solid black;
   right: 10px;
   top: 10px;
 }
-.country, .airport, .iata{
+.country, .airport, .iata,.correctIata{
   display: flex;
   align-items: center;
   margin-bottom: 5%;
