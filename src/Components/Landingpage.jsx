@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 function Landingpage({Data}) {
 
   return (
-    <div>
-        <h1>IATA Quiz</h1>
+    <div className='laningpageContainer'>
+        <h1 className='header'>IATA Quiz</h1>
         <Link to={"/ingame"} state={Data}>
-          <button>Start Quiz</button>
+          <button className='startBtn'>Start Quiz</button>
         </Link>
     </div>
   )

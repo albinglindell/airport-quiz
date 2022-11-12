@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.laningpageContainer{
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
+}
+.header{
+  color:#FE8C00;
+  text-shadow: -4px 2px 2px #8c7c5e;
+}
+.startBtn, .nextBtn, .showAnswerBtn, .correctBtn, .restartBtn{
+padding: 1rem 2rem;
+background: #FE8C00;
+border: 1px solid;
+border-radius: 7px;
+cursor: pointer;
+color: white;
+border: 1px solid black;
+}
+
+/* ingamescreen */
+
+.ingameScreen{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ingameContainer{
+  margin-top: 30%;
+}
+.progress{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.country, .airport, .iata{
+  display: flex;
+  align-items: center;
+  margin-bottom: 5%;
+  color: #FE8C00;
+  text-shadow: -4px 2px 2px #8c7c5e39;
+}
+.correct{
+  color: rgb(79, 216, 79);
+}
+.wrong{
+  color: red;
+}
+.inputContainer{
+  display: flex;
+  flex-direction: column;
+}
+.inputVal{
+  border: 1px solid;
+  border-radius: 7px;
+  padding: .2rem;
+  font-size: 16px;
+}
+.nextBtn, .correctBtn{
+  margin-top: 10px;
+}
+.showAswer{
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
+}
+.showAnswerBtn{
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+/* resultscreen */
+.resultScreen{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.resultContainer{
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+.correctVal,.wrongVal{
+  height: 75vh;
+  overflow: scroll;
+  margin-bottom: 15px;
+  padding: .8rem;
+  border-radius: 10px;
+}
+.correctVal{
+  background: rgba(156, 249, 156, 0.371);
+  color: rgb(30, 197, 30);
+}
+.wrongVal{
+background: rgba(255, 151, 151, 0.184);
+color: rgb(215, 31, 31);
+}
+.answers{
+  margin-bottom: 10px;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 7px;
+  box-shadow: -1px 1px 5px 0px;
 }

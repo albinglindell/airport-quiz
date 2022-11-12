@@ -1,6 +1,6 @@
 import React from 'react'
 import { useLocation } from "react-router-dom";
-
+import {Link} from "react-router-dom"
 function Result() {
     let location = useLocation()
     let correct = location.state.correct
@@ -9,30 +9,40 @@ function Result() {
         location("/")
     }
   return (
-    <div>
-      <div style={{color:"green"}} className='correctVal'>{correct.map(country =>{
+    <div className='resultScreen'>
+        <h1 className='header'>Results!</h1>
+        <div className="resultContainer">
+
+        
+      <div  className='correctVal'>
+      <h2>{correct.length}/40 right!</h2>
+        {correct.map(country =>{
         return (
-            <>
-            🥂🥂🥂
+            <div className='answers'>
             <p>{country.COUNTRY}</p>
             <p>{country.AIRPORT}</p>
             <p>{country.IATA}</p>
-            🥂🥂🥂
-            </>
+            </div>
         )
       })}</div>
-      <div style={{color:"red"}} className='wrongVal'>{wrong.map(country => {
+      <div className='wrongVal'>
+      <h2>{wrong.length}/40 wrong!</h2>
+        
+        {wrong.map(country => {
         return (
-            <>
-            🛑🛑🛑
+            <div className='answers'>
             <p>{country.COUNTRY}</p>
             <p>{country.AIRPORT}</p>
             <p>{country.IATA}</p>
-            🛑🛑🛑
-            </>
+            </div>
         )
       })}</div>
-      <button onClick={restart}>Restart!</button>
+      </div>
+      <div className="restartBtnContainer">
+        <Link to={"/"}>
+      <button className='restartBtn' onClick={restart}>Restart!</button>
+        </Link>
+      </div>
     </div>
   )
 }
