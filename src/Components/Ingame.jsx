@@ -51,7 +51,6 @@ function Ingame() {
          
         }else if(questionNum===39){
           setEndGame(true)
-          console.log({correct,wrong})
         }
         setCorrectAnswer("")
         setCorrection(false)
